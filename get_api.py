@@ -7,7 +7,7 @@ def getapi():
 	r = requests.session()
 	phone = input("enter ur phone number : ")
 	headers = {
-	    'Host': 'my.telegram.org',,
+	    'Host': 'my.telegram.org',
 	    'accept': 'application/json, text/javascript, */*; q=0.01',
 	    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
 	    'x-requested-with': 'XMLHttpRequest',
